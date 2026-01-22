@@ -12,7 +12,7 @@ BOT_DOMAIN=$1
 SECRET_KEY=$2
 
 if [ -z "$BOT_DOMAIN" ]; then
-    read -p "Введите домен бота (например, bot.ilson.uk): " BOT_DOMAIN
+    read -p "Введите домен бота (например, bot.domain.com): " BOT_DOMAIN
 fi
 
 if [ -z "$SECRET_KEY" ]; then
